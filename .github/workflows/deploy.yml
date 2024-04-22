@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Build application
-        run: ng build --configuration=production --base-href=/kcare-template-identity-management/
+        run: npm run build --configuration=production --base-href=/kcare-template-identity-management/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
